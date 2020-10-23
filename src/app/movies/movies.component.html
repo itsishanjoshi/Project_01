@@ -1,0 +1,15 @@
+<p>movies works!</p>
+
+    <ng-container class="card" *ngFor="let movieItem of movies">
+    <div class="m-4 shadow-sm">
+        <img [src]="movieItem.img" width="250px" height="250px">
+        <p><b>{{movieItem.name}}</b></p>
+        <p><img src="https://m.media-amazon.com/images/G/01/IMDb/BG_icon_Android._SX350_CR0,0,350,262_AL_.png" width="50px" height="30px">{{movieItem.rating}} <img src="https://www.tryviews.com/wp-content/uploads/2018/05/gold-star-2-1.jpg" width="15px" height="15px"></p>
+        <p>{{movieItem.about}}</p>
+        <i style="font-size: 14px;">{{movieItem.cast}}</i>
+        
+    </div>
+</ng-container>
+
+
+
