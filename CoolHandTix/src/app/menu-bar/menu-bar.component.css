@@ -1,0 +1,9 @@
+.row{
+    background-color:blue;
+    color:white;
+    padding:20px 0px 20px 0px;
+    
+}
+.row p{
+    font-size:22px;
+}
